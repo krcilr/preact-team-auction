@@ -1,6 +1,6 @@
 
 import './style.css';
-
+import { Analytics } from '@vercel/analytics/react';
 import "preact/debug"; // for debugging purposes only
 
 export function Home() {
@@ -27,6 +27,7 @@ export function Home() {
 					href="https://vitejs.dev"
 				/>
 			</section>
+			<Analytics />
 		</div>
 	);
 }
